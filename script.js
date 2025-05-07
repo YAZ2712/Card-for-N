@@ -106,7 +106,7 @@ setTimeout(() => {
   }
   
   // Mouse trail effect
-  document.addEventListener('mousemove', function(e) {
+  document.addEventListener('touchstart', function(e) {
     const trail = document.createElement('div');
     trail.className = 'trail';
     trail.style.left = (e.pageX - 5) + 'px';
